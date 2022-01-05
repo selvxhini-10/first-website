@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hippo Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src = "/script.js" defer> </script>
+  </head>
+ <body>
+  <heading>
+    <nav>
+      <ul>
+        <li><a href="index.html"><font color="#990b0b">Home</font></a></li>
+        <li>
+          <a href="colours.html"><font color="#990b0b">Colours</font></a>
+        </li>
+        <li>
+          <a href="east_africa.html"><font color="#990b0b">Fun Facts</font></a>
+        </li>
+        <li>
+          <a href="gallery.html"><font color="#990b0b">Gallery</font></a>
+        </li>
+      </ul>
+    </nav>
+  </heading>
+
+    <marquee><h1 id="header" onmouseover="mouseOver()" onmouseout="mouseOut()">
+      Awesome Quiz about Hippos
+      </h1></marquee>
+    <script>
+      function mouseOver() {
+        document.getElementById("header").style.color = "#990b0b";
+      }
+      function mouseOut() {
+        document.getElementById("header").style.color = "black";
+      }
+    </script>
+    <h3>
+      How well do you know about hippos? Test your knowledge here!
+   </h3>
+    <form id="quiz" name="quiz">
+      <p class = "questions"> 
+        Where do hippos live?
+      </p>
+
+      <input id="textbook" type="text" name="question1" />
+
+      <p class="questions">
+        What is the plural word for a hippo?
+      </p>
+      <input type="radio" class="mc" name="question2" value="Hippopotami" />
+      Hippopotami
+      <input type="radio" class="mc" name="question2" value="Hippos" />
+      Hippos
+      <input type="radio" class="mc" name="question2" value="Hippopotamuses" />
+      Hippopotamuses
+  
+      <p class= "questions">
+    What is the colour of a hippo?
+      </p>
+      <input type="radio" class="mc" name="question3" value="Brown" />
+      Brown
+      <input type="radio" class="mc" name="question3" value="Grey" />
+      Grey
+      <input type="radio" class="mc" name="question3" value="May Vary in Colour" />
+      May Vary in Colour
+      
+      <input
+        id="button"
+        type="button"
+        value="I'm finished!"
+        onclick="check();"
+      />
+    </form>
+
+    <div id="after_submit">
+      <p id="number_correct"></p>
+      <p id="message"></p>
+      <img id="picture" />
+    </div>
+
+    <ol>
+      <br><li>What's the colour of a hippo?</li>
+      <br />
+      <br><input type="color" />
+      <br />
+      <br><li>When's your birthday? (random question)</li>
+      <br />
+      <br><input type="date" />
+      <br />
+      <br><li>How much do you like hippos?</li>
+      <br />
+      <input type="range" />
+      <br />
+    </ol>
+    <b><p style="color: #990b0b">Login to your Hippo Account to unlock more info about Hippos!</b><br>
+      <br><input type="text" placeholder="Enter Username here" />
+      <br><input type="password" placeholder="Enter password here" /><br>
+      <br><button>
+  <b>Login</b>
+  </button><br>
+<br><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Or click here to create an account!</a> 
+   </p>
+  </body>
+</html>
