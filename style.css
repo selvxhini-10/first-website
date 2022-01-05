@@ -1,0 +1,122 @@
+p {
+  color: black;
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #ffb12b;
+}
+
+h1 {
+color: #990b0b
+}
+
+h3 {
+  color: #ffb12b;
+  background-color: #990b0b;
+  font-family: monotone;
+}
+
+body {
+  background-image: url("https://cdn.glitch.me/6144e261-16e0-45f5-b443-e676a0aa65b8%2Fsavannah.jpg?v=1637793748361");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  color:  #990b0b;
+  font-family: monotone;
+  background-color: #ffb12b;
+}
+
+.gallery-pic{
+  height: 400px;
+  width: 400px;
+  object-fill: cover;
+  border-style: solid;
+  border-width: 16px;
+  border-color: white;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.row {
+  display:flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.caption {
+  color: black;
+  position relative;
+  top: -60px;
+}
+
+ol {
+  color: #ffb12b;
+  background-color: #990b0b;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+nav ul {
+  background-color: #ffb12b;
+  border-style: groove;
+  border-width: 10px;
+  border-color: #990b0b;
+  padding: 10px; 
+  font-size: 18px;
+  font-family: font-family: 'Oswald', sans-serif;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#button {
+  background: #FF8EB5;
+  border: none:
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  margin-top: 15px;
+}
+
+#button:hover {
+  background:white;
+  border: 1px solid #FF8EB5;
+  color: black;
+  cursor: pointer;
+}
+input {
+  margin-bottom: 20px;
+  display: block;
+}
+#textbox {
+  height: 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 5 px;
+}
+#after-submit {
+  visibility: hidden;
+  background: #ff5259;
+  padding; 10px 20px 10px 20px;
+  width: 400px;
+  border-radius: 20px;
+  float: left;
+  margin-left: 20px;
+  font-size: 30px;
+}
